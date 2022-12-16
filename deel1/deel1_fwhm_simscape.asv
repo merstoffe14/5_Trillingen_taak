@@ -17,8 +17,8 @@ ax.FontSize = 24;
 
 omega_d_1 = 9.48761; % Hoogste punt    
 
-omega_2_1 = 10.6468; % Rechts van het hoogste punt -3 dB
-omega_1_1 = 8.46799; % Links van het hoogste punt -3 dB
+omega_2_1 = 10.6468; % Rechts van het hoogste punt -3
+omega_1_1 = 8.46799;
 
 demp_1 = (omega_2_1 - omega_1_1)/(2*omega_d_1)
 omega_n_1 = (omega_d_1)/(sqrt(1-demp_1^2))
