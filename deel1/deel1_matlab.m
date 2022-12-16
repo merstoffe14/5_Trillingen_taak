@@ -19,16 +19,15 @@ M1 = [eye(2) zeros(2); zeros(2), M]
 K1 = [zeros(2) -eye(2); K C]
 
 [V,D] = eig(K,M)
-% Heel de V1, K1.... snap ik nog niet.
 [V1, D1] = eig(K1, M1)
 
 omega_1 = sqrt(D(1,1))
 omega_2 = sqrt(D(2,2))
 
-xi_1 = real(D1(1,1))/omega_1
+xi_1 = real(D1(3,3))/omega_1
 xi_2 = real(D1(2,2))/omega_2
 
-% Ik ben niet zeker of dit juist is.
 
-% De grootte van D1(1,1) en D(1,1) zou het zelfde moeten zijn.
+
+
 

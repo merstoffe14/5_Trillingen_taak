@@ -22,17 +22,17 @@ ax.FontSize = 16;
 % mass 1 (blue)----------------------
 
 % Aantal periodes n
-n_massa1 = 5
+n_massa1 = 5;
 
 % De periode T (aflezen)
-T_massa1 = (3.336 - 0)/n_massa1
+T_massa1 = (3.336 - 0)/n_massa1;
 
 % x(t0) en x(t1)
-xt0_massa1 = 0 + 0.1
-xt1_massa1 = -0.0972456 + 0.1
+xt0_massa1 = 0 + 0.1;
+xt1_massa1 = -0.0972456 + 0.1;
 % Delta
 
-delta_massa1 = (1/n_massa1) * log( (xt0_massa1)/(xt1_massa1) )
+delta_massa1 = (1/n_massa1) * log( (xt0_massa1)/(xt1_massa1) );
 
 % Omega_d, omega_n en demping.
 
@@ -43,17 +43,17 @@ demping_massa1 = (delta_massa1)/(sqrt(4*(pi^2)+(delta_massa1^2)))
 % mass 2 (blue/orange)----------------------
 
 % Aantal periodes n
-n_massa2 = 6
+n_massa2 = 6;
 
 % De periode T (aflezen)
-T_massa2 = (3.997 - 0)/n_massa2
+T_massa2 = (3.997 - 0)/n_massa2;
 
 % x(t0) en x(t1)
-xt0_massa2 = 0 + 0.1
-xt1_massa2 = -0.0987812 + 0.1
+xt0_massa2 = 0 + 0.1;
+xt1_massa2 = -0.0987812 + 0.1;
 % Delta
 
-delta_massa2 = (1/n_massa2) * log( (xt0_massa2)/(xt1_massa2) )
+delta_massa2 = (1/n_massa2) * log( (xt0_massa2)/(xt1_massa2) );
 
 % Omega_d, omega_n en demping.
 

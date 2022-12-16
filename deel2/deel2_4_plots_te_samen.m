@@ -2,8 +2,8 @@ clc
 clearvars
 
 
-[t_simulink,x_simulink,f_simulink] = sim('deel2_simulink');
-[t_simscape,x_simscape,x1_simscape,x2_simscape] = sim('deel2_simscape');
+[t_simulink,x_simulink,f_simulink] = sim('deel1_simulink'); 
+[t_simscape,x_simscape,x1_simscape,x2_simscape] = sim('deel1_simscape');
 
 
 hold on
