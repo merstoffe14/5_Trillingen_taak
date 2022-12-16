@@ -1,3 +1,6 @@
+% Een verzameling van notities van tijdens de les.
+
+
 % Voor een fft is het ook belangerijk dat f0 = 1/T0
 % We moeten kunnen motiveren waarom we een bepaalde simulatie tijd gaan
 % kiezen
